@@ -18,6 +18,8 @@ A production-style backend system that monitors API latency, errors, and perform
 - Nodemailer
 
 ## Architecture
+![Architecture Diagram](docs/architecture.png)
+
 - Middleware captures request metrics
 - Metrics stored in PostgreSQL
 - Redis used for caching and alert deduplication
